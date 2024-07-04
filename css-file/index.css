@@ -1,0 +1,8 @@
+.section{
+    background-image: url(../images/couple1.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+}
+h4{
+    height: 100vh;
+}
