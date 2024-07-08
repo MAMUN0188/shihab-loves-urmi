@@ -1,8 +1,117 @@
-.section{
-    background-image: url(../images/couple1.jpg);
-    background-size: contain;
-    background-repeat: repeat;
+*{
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
 }
-h4{
-    height: 100vh;
+/* share style  */
+.bg-color{
+    background-color: #FFF8F3;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.btn{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: crosshair;
+}
+main{
+    max-width: 900px;
+    margin: 80px auto;
+}
+.about{
+    /* width: 600px; */
+    padding: 30px 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.about .item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.about .sub-item{
+    margin: 1px;
+}
+.section-description{
+    font-size: 18px;
+}
+.sub-about{
+    border: 2px solid black;
+    margin:30px auto;
+    width: 700px;
+    background-color: white;
+}
+
+/* DO SECTION  */
+.do{
+    margin: 100px auto;
+}
+.section-title, .section-p{
+    margin: 0 50px;
+    text-align: center;
+}
+.file{
+    display: flex;
+    margin-top: 60px;
+}
+.file .sub-file{
+    margin-right: 24px;
+    padding: 15px;
+    box-shadow: 0px 0px 30px #F3F3F3;
+}
+/* RESUME SECTION  */
+.sub-resume{
+    display: flex;
+    margin-top: 40px;
+}
+hr{
+    width: 400px;
+    text-align: start;
+}
+.sub-resume-summery{
+    padding: 25px;
+    margin: 25px;
+}
+.resume .button{
+    margin-left: 410px;
+}
+/* FOOTER SECTION ??/ */
+footer{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+footer .content{
+    width: 480px;
+    margin-top: 20px;
+}
+footer .form{
+    width: 400px;
+}
+.block{
+    display: block;
+    margin-top: 20px;
+}
+input{
+    height: 44px;
+    width: 250px;
+}
+.content h3{
+    font-size: 48px;
+}
+.form h3{
+    font-size: 48px;
+}
+.form button{
+    margin-top: 50px;
+}
+.icon{
+    outline: 0;
 }
